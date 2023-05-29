@@ -74,7 +74,7 @@ export default function Footer() {
                         <li><a href="https://www.linkedin.com/in/arkartoekyaw/"><Icon path={mdiLinkedin} size={1.5} /></a></li>
                         <li><a href="https://web.whatsapp.com"><Icon path={mdiWhatsapp} size={1.5} /></a></li>
 
-                        <li><a href="https://twitter.com/elonmusk"></a><Icon path={mdiTwitter} size={1.5} /></li>
+                        <li><a href="https://twitter.com/elonmusk"><Icon path={mdiTwitter} size={1.5} /></a></li>
                     </ul>
                 </div>
             </div>
