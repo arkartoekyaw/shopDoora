@@ -1,0 +1,13 @@
+
+
+*{
+    margin-bottom: 5px;
+}
+
+.carousel-image {
+    object-fit: contain;
+    /*height: 100%;*/
+
+    width: 100vw;
+}
+
