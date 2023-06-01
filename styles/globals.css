@@ -34,7 +34,7 @@
     margin-right: 10px;
 }
 
-a.carousel-control-next {
+.trynew a.carousel-control-next {
     right: 0;
     top: 50%;
     transform: translate(0, -100%);
