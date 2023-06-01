@@ -37,7 +37,22 @@
 a.carousel-control-next {
     right: 0;
     top: 50%;
-    transform: translate(0, -50%);
+    transform: translate(0, -100%);
+}
+
+.item_info{
+    transform: translateY(50%);
+}
+
+.splide__arrow--prev{
+    display: none !important;
+}
+.img_slider{
+    width: 60vw;
+}
+.test_class{
+    /* background:red; */
+    width: 200px !important;
 }
 
 
