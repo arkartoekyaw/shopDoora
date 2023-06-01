@@ -42,20 +42,20 @@ const DevicesCarousel = ({ images, backgroundImage, title, subtitle }) => {
                     maxHeight: "auto", // Set the desired height
                 }}
             >
-                <div className="ms-4">
-                    <div className="title">
-                        <h4 className="fw-bold text-primary">{title}</h4>
+                <div className="ms-4 d-flex align-items-center">
+                    <div className="me-4 title " >
+                        <h4 className="fw-bold text-primary" style={{width:'130px',display:'block'}}> {title}</h4>
                         <p className="text-danger" dangerouslySetInnerHTML={{ __html: subtitle }}></p>
                     </div>
-                    <div className="ms-5">
-                        <Splide options={splideOptions} aria-label="My Favorite Images">
+                    <div className="ms-5 img_slider" >
+                        <Splide options={splideOptions} aria-label="My Favorite Images" >
                             {images.map((image, index) => (
-                                <SplideSlide key={index} className="ms-2 ps-2">
+                                <SplideSlide key={index} className="ms-2 test_class" style={{marginBottom:"-15px"}}>
                                     <Row className="d-flex justify-content-center align-items-center">
                                         <Col>
                                             <Card>
                                                 <div>
-                                                    <Card.Img variant="top" src={image} alt="..." />
+                                                    <Card.Img  src={image} alt="..." />
                                                 </div>
                                                 <Card.Body className="d-flex flex-column align-items-center">
                                                     <Card.Text className="text-truncate">
